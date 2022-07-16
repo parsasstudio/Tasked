@@ -1,0 +1,176 @@
+body {
+  font-size: .875rem;
+}
+
+html, div {
+  background-color: #ffffff;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.font-face {
+  font-family: Poppins;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: absolute;
+  top: 50px;
+  /* Height of navbar */
+  height: calc(100vh - 50px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #226427;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #7F7FAA;
+}
+
+.sidebar .nav-link.active {
+  color: #7F7FAA;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: #222364;
+  box-shadow: inset -1px 0 0 #222364;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #7F7FAA;
+}
+
+.form-control-dark {
+  color: #4b474d;
+  background-color: #F2F2FF;
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+.navbar-brand {
+  background-color: #4b474d;
+  box-shadow: none;
+  padding: .75rem
+}
+
+/*
+ * Utilities
+ */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* copyright styling */
+.copyright {
+  border-top: 2px solid #4b474d;
+}
+
+/* styling */
+
+.light-purple-bg {
+  background-color: #F2F2FF;
+}
+
+.light-purple-font {
+  color: #F2F2FF;
+}
+
+.medium-purple-bg {
+  background-color: #4b474d;
+}
+
+.medium-purple-font {
+  color: #4b474d;
+}
+
+.dark-purple-bg {
+  background-color: #4b4b4b;
+}
+
+.dark-purple-font {
+  color: #4b4b4b;
+}
+
+.purple-border-bottom {
+  border-bottom: 1px dotted #4b474d;
+}
+
+.purple-hover:hover {
+  color: #4b474d;
+}
+
+.dark-purple-hover:hover {
+  color: #4b4b4b;
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  border-right: 2px solid #4b474d;
+}
+
+.input {
+  background-color: none;
+  color: none;
+}
+
+/* this hides the default input/file upload so that we can attach this functionality to a custom label and make it pretty */
+input[type="file"] {
+  display: none;
+}
+
