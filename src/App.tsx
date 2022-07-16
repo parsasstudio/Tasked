@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import { Navbar } from './Navbar';
 import { Home, Footer } from './Home';
-import { About } from './About';
+import { Login } from './login';
 import { FourZeroFour } from './404';
 import { TaskForm, Tasks } from './Tasks';
 
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path='*' element={<FourZeroFour />} />
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/Create-Tasks' element={<TaskForm />} />
         <Route path='/Tasks' element={<Tasks />} />
       </Routes>

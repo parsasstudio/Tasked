@@ -15,7 +15,7 @@ export function Navbar() {
         {/* <input className="form-control" type="text" placeholder="Search" onChange={event => { setSearchTerm(event.target.value) }} /> */}
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap">
-            <a className="nav-link light-purple-font" href="/about">Tasked&copy;</a>
+            <a className="nav-link light-purple-font" href="/login">My Profile</a>
           </li>
         </ul>
       </nav>
